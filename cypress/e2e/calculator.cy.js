@@ -92,7 +92,7 @@ it('should have working numbers 3 divided by 0 to equal 0', () => {
   cy.get('#operator-divide').click();
   cy.get('#number0').click();
   cy.get('#operator-equals').click();
-  cy.get('.display').should('contain', 'infinite' )
+  cy.get('.display').should('contain', '0' )
 })
 
 
